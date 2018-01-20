@@ -1,0 +1,18 @@
+.frame_div{
+	width: 300px;
+	display: none;
+}
+.frame_div iframe{
+	height: 200px;
+	width: 300px;
+	background:grey;
+}
+.click_iframe{
+	display: inline-block;
+	
+}
+.click_iframe:focus+ div{
+	display:block;
+}
+
+	
